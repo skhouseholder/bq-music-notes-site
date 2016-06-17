@@ -296,10 +296,18 @@ p {
 }
 
 .landing-subtitle {
-	font-size: 16px;
+	font-size: 20px;
 	letter-spacing: 1px;
 	margin: 32px 0;
 	text-align: center;
+}
+
+.landing-description {
+	font-size: 20px;
+	letter-spacing: 1px;
+	margin: 32px auto;
+	text-align: center;
+	width: 70%;
 }
 
 .subtitle {
@@ -319,15 +327,15 @@ p {
 .site-title {
 	font-size: 70px;
 	margin-bottom: 48px;
-	font-family: 'Fredoka One', cursive;
+	font-family: 'Berkshire Swash', cursive;
 	/*font-family: 'Fredericka the Great', cursive;*/
 }
 
 .image_container {
 	display: block;
 	margin: 0 auto 45px;
-	width: 100px;
-	height: 100px;
+	width: 130px;
+	height: 130px;
 	background-image: url(../images/icon.png);
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
