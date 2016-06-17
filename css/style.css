@@ -1,0 +1,582 @@
+/*
+	Template: Timeline
+	Author: Linewp
+	Version: 1.0
+*/
+
+
+/* TABLE OF CONTENTS
+
+	1. CSS Reset
+	2. Basic Document Styles
+	3. Common Styles
+	4. Typography
+	5. Forms
+	6. Social Icons
+	7. Preloader
+	8. Background Overlay
+	9. Video Background
+	10. Countdown
+	11. Newsletter
+	12. Modal toggle
+	13. Team
+	14. Responsive
+
+*/
+
+
+/* 1. CSS Reset
+-------------------------------------------------*/
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+	display: block;
+}
+
+audio,
+canvas,
+video {
+	display: inline-block;
+}
+
+audio:not([controls]) {
+	display: none;
+	height: 0;
+}
+
+[hidden] {
+	display: none;
+}
+
+html {
+	font-size: 100%;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-font-smoothing: antialiased;
+}
+
+ul {
+	list-style: none;
+}
+
+ol {
+	list-style: decimal;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: "";
+	content: none;
+}
+
+img {
+	border: 0;
+	vertical-align: middle;
+	-ms-interpolation-mode: bicubic;
+}
+
+form {
+	margin: 0;
+}
+
+button,
+input {
+	line-height: normal;
+}
+
+button,
+input[type="submit"] {
+	-webkit-appearance: button;
+	cursor: pointer;
+}
+
+textarea {
+	overflow: auto;
+	vertical-align: top;
+}
+
+/* 2. Basic Document Styles
+-------------------------------------------------*/
+html,
+body {
+	height: 100%;
+}
+
+body {
+	color: #dadada;
+	background-color: #303F9F;
+	line-height: 1.75;
+	margin: 0;
+}
+
+html,
+button,
+input,
+textarea {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+button,
+input,
+textarea {
+	border-radius: 2px;
+	font-size: 14px;
+	margin: 0;
+	max-width: 100%;
+	vertical-align: baseline;
+	-webkit-box-sizing:	border-box;
+	-moz-box-sizing:	border-box;
+	box-sizing:			border-box;
+}
+
+ul,
+ol {
+	margin: 0 0 28px;
+	padding: 0px;
+}
+
+a {
+	color: #dadada;
+	text-decoration: underline;
+}
+
+a:active,
+a:focus,
+a:hover {
+	outline: 0;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+/* 3. Common Styles
+-------------------------------------------------*/
+.wrap {
+	min-height: 100%;
+	position: relative;
+}
+
+.inner {
+	margin: 0 auto;
+	padding: 42px 24px;
+}
+
+#main {
+	position: relative;
+}
+
+#main .inner {
+	max-width: 816px;
+	padding-bottom: 126px;
+	padding-top: 84px;
+}
+
+#modal {
+	background: #1f1f1f;
+	background: rgba(31,31,31,0.8);
+	display: none;
+	left: 0;
+	min-height: 100%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 997;
+}
+
+#modal .inner {
+	max-width: 712px;
+}
+
+.row:after { 
+	clear: both; 
+}
+
+.row:before,.row:after { 
+	content: ""; 
+	display: table; 
+}
+
+.row {
+	margin-left: -48px;
+}
+
+.one-half,
+.one-third,
+.two-thirds {
+	-webkit-box-sizing:	border-box;
+	-moz-box-sizing:	border-box;
+	box-sizing:			border-box;
+	float: left;
+}
+
+.one-half {
+	width: 50%;
+	padding-left: 48px;
+}
+
+.one-third {
+	width: 39%;
+	padding-left: 15px;
+}
+
+.two-thirds {
+	width: 61%;
+	padding-left: 18px;
+}
+
+.content img {
+	height: auto;
+	max-width: 100%;
+}
+
+.no-js #timer,
+.no-js .modal-toggle,
+.no-js #preload {
+	display: none;
+}
+
+/* 4. Typography
+-------------------------------------------------*/
+h1,
+h2,
+h3,
+h4 {
+	color: #fff;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	line-height: 1.16667;
+	margin: 0 0 50px;
+	text-align: center;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+h2 {
+	font-size: 44px;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+h4 {
+	font-size: 18px;
+}
+
+b,
+strong {
+	font-weight: 700;
+}
+
+i,
+em {
+	font-style: italic;
+}
+
+p {
+	margin: 0 0 28px;
+}
+
+.landing-subtitle {
+	font-size: 16px;
+	letter-spacing: 1px;
+	margin: 32px 0;
+	text-align: center;
+}
+
+.subtitle {
+	font-size: 14px;
+	letter-spacing: 1px;
+	margin: 32px 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.row h2 {
+	font-size: 24px;
+	margin-bottom: 12px;
+	text-align: left;
+}
+
+.site-title {
+	font-size: 70px;
+	margin-bottom: 48px;
+	font-family: 'Fredoka One', cursive;
+	/*font-family: 'Fredericka the Great', cursive;*/
+}
+
+.image_container {
+	display: block;
+	margin: 0 auto 45px;
+	width: 100px;
+	height: 100px;
+	background-image: url(../images/icon.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.screen-reader-text {
+	border: 0 none;
+	clip: rect(1px, 1px, 1px, 1px);
+	height: 1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute !important;
+	width: 1px;
+}
+
+/* 5. Forms
+-------------------------------------------------*/
+input,
+textarea {
+	background: #6e6e6e;
+	background: rgba(169,169,169,0.3);
+	border: 0px;
+	color: #fff;
+	font-weight: 700;
+	letter-spacing: 1px;
+	padding: 12px;
+	text-transform: uppercase;
+}
+
+input:focus,
+textarea:focus {
+	outline: 0;
+}
+
+button,
+input[type="submit"] {
+	background: #FF9800;
+	-webkit-transition:	all 0.2s;
+	-moz-transition:	all 0.2s;
+	transition:			all 0.2s;
+}
+
+button:hover,
+button:focus,
+input[type="submit"]:focus,
+input[type="submit"]:hover {
+	background: #FFA726;
+	/*color: #dadada;*/
+	outline: 0;
+}
+
+.form-field {
+	position: relative;
+}
+
+.form-field label {
+	font-size: 14px;
+}
+
+.form-field span.error {
+	background: #12BAAD;
+	border: 1px solid #12BAAD;
+	color: #f7f7f7;
+	font-size: 10px;
+	letter-spacing: 1px;
+	padding: 6px;
+	position: absolute;
+	right: 6px;	
+	/*text-transform: uppercase;*/
+	top: -14px;
+}
+
+.form-wrap .loading {
+	height: 42px;
+	margin: 0 auto 28px;
+	text-align: center;
+}
+
+.form-wrap .success {
+	color: #dadada;
+	font-family: 'Source Sans Pro', sans-serif;
+	min-height: 42px;
+	text-align: center;
+}
+
+::-webkit-input-placeholder {
+	color: #a9a9a9;
+}
+
+::-moz-placeholder {
+	color: #a9a9a9;
+	opacity: 1;
+}
+
+.placeholder {
+	color: #a9a9a9;
+}
+
+/* 6. Social Icons
+-------------------------------------------------*/
+.social {
+	margin: 32px 0 45px;
+}
+
+.social ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.social li {
+	display: inline-block;
+	margin: 1px;
+}
+
+.social .icon {
+	color: rgba(255, 255, 255, 0.6);
+	display: inline-block;
+	font-size: 19px;
+	height: 36px;
+	line-height: 1.9;
+	text-align: center;
+	text-decoration: none;
+	width: 36px;
+	margin-right: 6px;
+	-webkit-transition:	all 0.3s ease;
+	-moz-transition:	all 0.3s ease;
+	transition:			all 0.3s ease;
+}
+
+.social .icon:hover {
+	color: #FFA726;
+}
+
+.row li .fa {
+	font-size: 18px;
+	line-height: 1.6;
+	margin: 0 10px 14px 0;
+}
+
+#play-badge {
+	width: 200px;
+	margin: 26px 0px;
+}
+
+/* 11. Newsletter
+-------------------------------------------------*/
+#newsletter, .newsletter {
+	margin: 0 auto;
+	max-width: 480px;	
+}
+
+#newsletter-form,
+.newsletter-form {
+	position: relative;
+}
+
+#newsletter-form .form-field,
+.newsletter-form .form-field {
+	margin-right: 180px;
+}
+
+#newsletter-form .form-submit,
+.newsletter-form .form-submit {
+	height: 42px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 175px;
+}
+
+#newsletter_email, .newsletter_email,
+#newsletter_submit, .newsletter_submit, #mc-embedded-subscribe {
+	display: block;
+	height: 42px;
+	width: 100%;
+}
+
+#newsletter_email {
+	border-right: 0;
+}
+
+
+.heap-badge-container {
+	position: absolute;
+	right: 8px;
+	bottom: 8px;
+	margin-top: 100px;
+}
+
+
+/* 14. Responsive
+-------------------------------------------------*/
+@media only screen and (max-width: 680px) {
+	h1 {
+		font-size: 36px;
+	}
+	.countdown-amount {
+		font-size: 48px;
+	}
+}
+
+@media only screen and (max-width: 540px) {
+	.one-half {
+		width: 100%;
+	}
+	.one-third {
+		padding-left: 48px;
+	}	
+	.two-thirds {
+		padding-left: 18px;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	h1 {
+		font-size: 30px;
+	}
+	.countdown-section {
+		padding: 28px 6px 28px;
+	}
+	.countdown-amount {
+		font-size: 40px;
+	}
+	#newsletter-form .form-field, {
+		margin: 0 0 14px;
+	}
+	#newsletter-form .form-submit {
+		margin: 0 auto;
+		position: static;
+		right: auto;
+		top: auto;
+	}
+	.one-half, .one-third, .two-thirds {
+		width: 100%;
+		padding-left: 48px;
+	}
+	.team-photo {
+		margin-bottom: 30px;
+	}
+}
+
+@media only screen and (max-width: 360px) {
+	.countdown-section {
+		font-size: 10px;
+		padding: 21px 6px;
+	}
+	.countdown-amount {
+		font-size: 29px;
+	}
+}
