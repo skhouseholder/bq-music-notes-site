@@ -477,9 +477,9 @@ input[type="submit"]:hover {
 	margin: 0 10px 14px 0;
 }
 
-#play-badge {
+#play-badge, #ios-badge {
 	width: 200px;
-	margin: 26px 0px;
+	margin: 21px 12px;
 }
 
 /* 11. Newsletter
