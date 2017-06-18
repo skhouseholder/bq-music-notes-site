@@ -1,4 +1,4 @@
 {
-  "dev": "semifinals.json",
-  "prod": ""
+  "dev": "semifinals_dev",
+  "prod": "semifinals_prod"
 }
