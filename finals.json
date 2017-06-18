@@ -1,15 +1,39 @@
 {
-  "performer": [
-            "Mic tester",
-            "one",
-            "two",
-            "three",
-            "four",
-            "five",
-            "six",
-            "seven",
-            "eight",
-            "nine",
-            "ten"
-            ]
+  	"finals": [
+		"Mic tester",
+		"one",
+		"two",
+		"three",
+		"four",
+		"five",
+		"six",
+		"seven",
+		"eight",
+		"nine",
+		"ten"
+	],
+
+	"semifinals": [
+		"Mic tester",
+		"one",
+		"two",
+		"three",
+		"four",
+		"five",
+		"six",
+		"sev'''''en",
+		"eight",
+		"nine",
+		"ten",
+	    "eleven",
+	    "twelve",
+	    "thirteen",
+	    "fourteen",
+	    "fifteen",
+	    "sixteen",
+	    "seventeen",
+	    "eighteen",
+	    "nineteen",
+	    "twenty"
+	]
 }
