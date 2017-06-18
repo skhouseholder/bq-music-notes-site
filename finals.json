@@ -1,5 +1,6 @@
 {
   	"version": 1,
+  	"shouldAnnounceUpdate": true,
   	"finals": [
 		"Mic tester",
 		"one",
