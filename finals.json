@@ -1,8 +1,8 @@
 {
-  	"version": 1,
+  	"version": 2,
   	"shouldAnnounceUpdate": false,
   	"finals": [
-		"Mic tester",
+		"Mic tester without typo!",
 		"one",
 		"two",
 		"three",
