@@ -1,8 +1,8 @@
 {
-	"version": 1,
-	"shouldAnnounceUpdate": true,
+	"version": 2,
+	"shouldAnnounceUpdate": false,
 	"semifinals": [
-		"Test - Lunch Break (DIX)",
+		"Test - Forefront (CAR)",
 		"Test - CHORD SMASH! (LOL)",
 		"Test - Da Capo (MAD)",
 		"Test - Dad Wagon (DIX)",
