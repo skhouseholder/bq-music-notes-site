@@ -1,18 +1,18 @@
 {
-  	"version": 8,
-  	"shouldAnnounceUpdate": true,
+  	"version": 0,
+  	"shouldAnnounceUpdate": false,
   	"finals": [
-		"TEST - Lunch Break",
-	    "TEST - 4.0 (EVG)",
-	    "TEST - 7th Avenue (CAR)",
-	    "TEST - Absolut (SNOBS)",
-	    "TEST - Yonge Guns (ONT)",
-	    "TEST - The 865 (DIX)",
-	    "TEST - Men In Black (NED)",
-	    "TEST - Gimme Four (MAD)",
-	    "TEST - G-Fours (PIO)",
-	    "TEST - BSQ (MAD)",
-	    "TEST - Artistic License (FWD)"
+		"Test - 'Round Midnight (MAD)",
+		"Test - 4.0 (EVG)",
+		"Test - 7th Avenue (CAR)",
+		"Test - Absolut (SNOBS)",
+		"Test - Yonge Guns (ONT)",
+		"Test - The 865 (DIX)",
+		"Test - Men In Black (NED)",
+		"Test - Gimme Four (MAD)",
+		"Test - G-Fours (PIO)",
+		"Test - BSQ (MAD)",
+		"Test - Artistic License (FWD)"
 	],
 
 	"semifinals": [
@@ -27,15 +27,15 @@
 		"Test - Boom! Shakalaka (ILL)",
 		"Test - 4Ward On! (SLD)",
 		"Test - 'Round Midnight (MAD)",
-	    "Test - 4.0 (EVG)",
-	    "Test - 7th Avenue (CAR)",
-	    "Test - Absolut (SNOBS)",
-	    "Test - Yonge Guns (ONT)",
-	    "Test - The 865 (DIX)",
-	    "Test - Men In Black (NED)",
-	    "Test - Gimme Four (MAD)",
-	    "Test - G-Fours (PIO)",
-	    "Test - BSQ (MAD)",
-	    "Test - Artistic License (FWD)"
+		"Test - 4.0 (EVG)",
+		"Test - 7th Avenue (CAR)",
+		"Test - Absolut (SNOBS)",
+		"Test - Yonge Guns (ONT)",
+		"Test - The 865 (DIX)",
+		"Test - Men In Black (NED)",
+		"Test - Gimme Four (MAD)",
+		"Test - G-Fours (PIO)",
+		"Test - BSQ (MAD)",
+		"Test - Artistic License (FWD)"
 	]
 }

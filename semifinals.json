@@ -1,6 +1,6 @@
 {
-	"version": 7,
-	"shouldAnnounceUpdate": true,
+	"version": 0,
+	"shouldAnnounceUpdate": false,
 	"semifinals": [
 		"Test - Lunch Break (DIX)",
 		"Test - CHORD SMASH! (LOL)",
@@ -13,15 +13,15 @@
 		"Test - Boom! Shakalaka (ILL)",
 		"Test - 4Ward On! (SLD)",
 		"Test - 'Round Midnight (MAD)",
-	    "Test - 4.0 (EVG)",
-	    "Test - 7th Avenue (CAR)",
-	    "Test - Absolut (SNOBS)",
-	    "Test - Yonge Guns (ONT)",
-	    "Test - The 865 (DIX)",
-	    "Test - Men In Black (NED)",
-	    "Test - Gimme Four (MAD)",
-	    "Test - G-Fours (PIO)",
-	    "Test - BSQ (MAD)",
-	    "Test - Artistic License (FWD)"
+		"Test - 4.0 (EVG)",
+		"Test - 7th Avenue (CAR)",
+		"Test - Absolut (SNOBS)",
+		"Test - Yonge Guns (ONT)",
+		"Test - The 865 (DIX)",
+		"Test - Men In Black (NED)",
+		"Test - Gimme Four (MAD)",
+		"Test - G-Fours (PIO)",
+		"Test - BSQ (MAD)",
+		"Test - Artistic License (FWD)"
 	]
 }
