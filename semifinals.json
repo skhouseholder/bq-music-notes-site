@@ -1,7 +1,7 @@
 {
 	"semifinals": {
 		"version": 1,
-		"shouldAnnounceUpdate": true,
+		"shouldAnnounceUpdate": false,
 		"singingOrder": [
 			"Test - Lunch Break (DIX)",
 			"Test - CHORD SMASH! (LOL)",
