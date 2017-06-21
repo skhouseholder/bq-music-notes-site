@@ -28,10 +28,10 @@
 	},
 
 	"finals": {
-		"version": 1,
-		"shouldAnnounceUpdate": true,
+		"version": 2,
+		"shouldAnnounceUpdate": false,
 		"singingOrder": [
-			"Test - 4Ward On! (SLD)",
+			"Test - !!!!!!!!!!!",
 			"Test - 'Round Midnight (MAD)",
 			"Test - 4.0 (EVG)",
 			"Test - 7th Avenue (CAR)",
