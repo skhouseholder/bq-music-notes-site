@@ -1,7 +1,7 @@
 {
 	"semifinals": {
-		"version": 3,
-		"shouldAnnounceUpdate": false,
+		"version": 4,
+		"shouldAnnounceUpdate": true,
 		"singingOrder": [
 			"Test - Lunch Break (DIX)",
 			"Test - CHORD SMASH! (LOL)",
@@ -28,10 +28,10 @@
 	},
 
 	"finals": {
-		"version": 2,
-		"shouldAnnounceUpdate": false,
+		"version": 3,
+		"shouldAnnounceUpdate": true,
 		"singingOrder": [
-			"Test - !!!!!!!!!!!",
+			"Test - 4Ward On! (SLD)",
 			"Test - 'Round Midnight (MAD)",
 			"Test - 4.0 (EVG)",
 			"Test - 7th Avenue (CAR)",
