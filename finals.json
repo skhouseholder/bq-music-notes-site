@@ -1,7 +1,7 @@
 {
 	"semifinals": {
-		"version": 4,
-		"shouldAnnounceUpdate": true,
+		"version": 1,
+		"shouldAnnounceUpdate": false,
 		"singingOrder": [
 			"Test - Lunch Break (DIX)",
 			"Test - CHORD SMASH! (LOL)",
@@ -28,7 +28,7 @@
 	},
 
 	"finals": {
-		"version": 3,
+		"version": 1,
 		"shouldAnnounceUpdate": true,
 		"singingOrder": [
 			"Test - 4Ward On! (SLD)",
