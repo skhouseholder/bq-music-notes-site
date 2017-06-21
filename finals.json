@@ -1,9 +1,9 @@
 {
 	"semifinals": {
-		"version": 0,
+		"version": 2,
 		"shouldAnnounceUpdate": false,
 		"singingOrder": [
-			"Test - Lunch Break (DIX)",
+			"Test - Lunch Break (DIX)!!!!!!!",
 			"Test - CHORD SMASH! (LOL)",
 			"Test - Da Capo (MAD)",
 			"Test - Dad Wagon (DIX)",
@@ -28,8 +28,8 @@
 	},
 
 	"finals": {
-		"version": 0,
-		"shouldAnnounceUpdate": false,
+		"version": 1,
+		"shouldAnnounceUpdate": true,
 		"singingOrder": [
 			"Test - 4Ward On! (SLD)",
 			"Test - 'Round Midnight (MAD)",
