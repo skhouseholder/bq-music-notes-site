@@ -28,15 +28,15 @@
 	},
 
 	"finals": {
-		"version": 2,
+		"version": 3,
 		"shouldAnnounceUpdate": true,
 		"singingOrder": [
 			"Rooftop Records (SUN)",
 			"‘Round Midnight (MAD)",
+			"Stockholm Syndrome (SNOBS)",
 			"Throwback (SUN)",
 			"After Hours (ILL)",
 			"Signature (SUN)",
-			"Yonge Guns (ONT)",
 			"Quorum (JAD)",
 			"Main Street (SUN)",
 			"Artistic License (FWD)",
